@@ -1,0 +1,20 @@
+{
+  "name": "qr_scanner",
+  "version": "1.0.0",
+  "description": "Qr scanner for Casey Trees",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.3",
+    "serve-static": "^1.12.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Michael P Mattaini",
+  "license": "ISC",
+  "engines": {
+    "node": "6.9.4"
+  }
+}
