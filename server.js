@@ -7,7 +7,7 @@ app.get('/', function(req, res) {
     res.sendFile(__dirname + '/index.html');
 })
 
-var port = process.env.port || 8080;
+var port = process.env.PORT || 5000;
 app.listen(port, function() {
     console.log(port);
     console.log('App started.');
